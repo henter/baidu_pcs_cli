@@ -9,6 +9,7 @@
 #include "cJSON.h"
 #include <sys/types.h>
 #include <sys/stat.h>
+#include <inttypes.h>
 
 /* 文件切片 */
 typedef struct PCSFileBlock_s PCSFileBlock;

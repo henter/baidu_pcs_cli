@@ -55,3 +55,8 @@ rm       [远程路径] 删除远程文件或目录
 4. 非上传请求，5秒连接超时，20秒请求超时
 5. 上传请求，5秒连接超时，文件尺寸/(10K/s)的上传超时
 6. 上面你都可以自己改了重新编译。。。
+
+
+#fork修改
+`pcs.h`中增加了`#include <inttypes.h>`
+另外，在ubuntu上编译时可能需要运行`apt-get install libcurl4-openssl-dev`
